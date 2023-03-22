@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem inventore voluptatibus unde nesciunt blanditiis. Eum odio ullam enim sint alias fugiat, amet magnam reiciendis tenetur a laboriosam, libero porro modi.</p>
+    <script>
+        class Equipo {
+                constructor(nombre, ciudad, deporte) {
+                    this.nombre = nombre;
+                    this.ciudad = ciudad;
+                    this.deporte = deporte;
+
+                    let equipo1 = new Equipo("Chelsea", "Londes", "Futbol");
+                    let equipo2 = new Equipo("FC Barcelona", "Barcelona", "Fútbol");
+                    let equipo3 = new Equipo("Golden State Warriors", "San Francisco", "Baloncesto");
+                }
+                
+                 get nombre() {
+                return this.nombre;
+            }
+
+            set nombre(nombre) {
+                this.nombre = nombre;
+            }
+
+            get ciudad() {
+                return this.ciudad;
+            }
+
+            set ciudad(ciudad) {
+                this.ciudad = ciudad;
+            }
+
+            get deporte() {
+                return this.deporte;
+            }
+
+            set deporte(deporte) {
+                this.deporte = deporte;
+            }
+        
+        }
+
+           
+        
+            alert("El equipo 1 es:"  );
+            
+
+
+    </script>
+</body>
+</html>
